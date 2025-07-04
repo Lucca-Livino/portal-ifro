@@ -1,0 +1,30 @@
+.menu{
+  background-color: #015104;
+  padding: 4px;
+}
+
+.menu > li{
+  list-style: none;
+}
+
+.menu >li > a{
+  text-decoration: none;
+  color: white;
+  background-color: #015104;
+  display: block;
+  padding: 4px;
+}
+
+.menu > li > a:hover{
+  background-color: #157919
+}
+
+@media(min-width: 768px) {
+  .menu{
+    display: flex;
+  }
+
+  .menu >li > a {
+    margin-left: 30px;
+  }
+}
