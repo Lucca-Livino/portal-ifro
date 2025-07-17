@@ -6,7 +6,7 @@
 }
 
 h1 {
-    font-family: 'Alfa Slab One';
+
     font-size: 2.5rem;
     color: #002c07;
     text-align: center;
@@ -14,6 +14,7 @@ h1 {
 }
 
 .rodape {
+
     background-color: #015104;
     color: #ffffff;
     padding: 20px;
@@ -24,11 +25,12 @@ h1 {
 .rodape ul {
     list-style: none;
     padding: 0;
-    border-left: 1px #ffffff dotted;
+    border-left: 1px #ffffff dotted ;
 
 }
 
 .rodape h3 {
+        font-family: "Quicksand", sans-serif;
     color: #60ba6b;
     margin-bottom: 10px;
     padding-left: 20px;
@@ -38,7 +40,7 @@ h1 {
 .rodape li {
     margin-bottom: 5px;
     padding-left: 20px;
-
+    
 }
 
 .rodape a {
@@ -61,7 +63,7 @@ h1 {
     margin-bottom: 20px;
 }
 
-.texto {
+.texto{
     text-align: center;
     margin: 40px 10px 10px 10px;
 }
@@ -78,7 +80,7 @@ h1 {
         justify-content: space-around;
         align-items: center;
         background-color: #002c07;
-
+    
     }
 
     .texto {

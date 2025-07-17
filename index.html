@@ -2,69 +2,225 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title> Portal do IFRO</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Quicksand:wght@300..700&display=swap"
-    rel="stylesheet">
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portal do IFRO</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Quicksand:wght@300..700&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
-  <header>
-     <div id="links">
-      <ul class="menu" id="menu">
-        <li><a href="#">Sobre o IFRO</a></li>
-        <li><a href="#">Comunicação</a></li>
-        <li><a href="#">Ouvidoria</a></li>
-        <li><a href="#">Contato</a></li>
-        <li><a href="#">Fale Conosco</a></li>
-        <li><a href="#">IFRO Mobile</a></li>
-      </ul>
-    </div>
-  </header>
-  <footer class="rodape">
-    <ul class="menu-serviços">
-      <h3>Serviços</h3>
-      <li><a href="#">Sobre o IFRO</a></li>
-      <li><a href="#">Comunicação</a></li>
-      <li><a href="#">Ouvidoria</a></li>
-      <li><a href="#">Contato</a></li>
-      <li><a href="#">Site Antiga</a></li>
-      <li><a href="#">Fale Conosco</a></li>
-      <li><a href="#">IFRO Mobile</a></li>
-    </ul>
-    <ul class="menu-redes">
-      <h3>Redes Sociais</h3>
-      <li><a href="#">Facebook</a></li>
-      <li><a href="#">YouTube</a></li>
-      <li><a href="#">Twitter</a></li>
-      <li><a href="#">Instagram</a></li>
-    </ul>
-    <ul class="rss">
-      <h3>RSS</h3>
-      <li><a href="#">O que é?</a></li>
-      <li><a href="#">Assine</a></li>
-    </ul>
-    <ul class="rss">
-      <h3>Sobre o site</h3>
-      <li><a href="#">Acessibilidade</a></li>
-    </ul>
-  </footer>
-  <div class="logos">
-    <img src="/informacao.png" alt="" width="140" />
-    <img src="/Governo.png" alt="" width="115" height="50" />
-  </div>
-  <div class="texto">
-    <p>Instituto Federal de Educação, Ciência e Tecnologia de Rondônia REITORIA</p>
-    <p>Av. Lauro Sodré, 6500 - Censipam - Aeroporto, Porto Velho - RO, 76803-260</p>
-    <p>Fone/Fax: (69) 2182-9600</p>
-    <p>Horário de atendimento: de segunda a sexta-feira - das 08h às 12h e das 14h às 18h</p>
-  </div>
+    <header class="cabecalho-bg">
+        <div class="botao">
+            <button class="hamburger" id="hamburger">
+                <img id="burger-icone" src="/burger-menu.svg" alt="Menu" width="48" height="48" />
+            </button>
+        </div>
+        <div id="links">
+            <ul class="menu" id="menu">
+                <li><a href="#">Sobre o IFRO</a></li>
+                <li><a href="#">Comunicação</a></li>
+                <li><a href="#">Ouvidoria</a></li>
+                <li><a href="#">Contato</a></li>
+                <li><a href="#">Fale Conosco</a></li>
+                <li><a href="#">IFRO Mobile</a></li>
+            </ul>
+        </div>
+        <div class="hero-content">
+            <section class="boas-vindas">
+                <h2>Bem-vindo ao Portal do IFRO</h2>
+                <p>Sua jornada de conhecimento começa aqui. Descubra nossos cursos, projetos e muito mais!</p>
+                <a href="#" class="btn-cta">Explore Nossos Cursos</a>
+            </section>
+        </div>
+    </header>
 
-  <script type="module" src="/src/main.ts"></script>
+    <main class="conteudo-principal">
+        <section class="sobre-nos">
+            <h3>Sobre o IFRO: Transformando Vidas pela Educação</h3>
+            <div class="sobre-nos-conteudo">
+                <div class="sobre-nos-texto">
+                    <p>O **Instituto Federal de Educação, Ciência e Tecnologia de Rondônia (IFRO)** é uma instituição de ensino público comprometida com a excelência na educação profissional, científica e tecnológica. Desde a sua fundação, temos como missão capacitar cidadãos para o mercado de trabalho e para o exercício pleno da cidadania, contribuindo ativamente para o desenvolvimento socioeconômico do estado de Rondônia e da região Amazônica.</p>
+                    <p>Nossos campi oferecem uma vasta gama de cursos técnicos, de graduação e pós-graduação, abrangendo diversas áreas do conhecimento. Priorizamos a inovação, a pesquisa aplicada e a extensão, buscando soluções para os desafios locais e regionais e promovendo a integração entre ensino, pesquisa e sociedade.</p>
+                    <p>No IFRO, valorizamos a **inclusão, a diversidade e a qualidade do ensino**. Nossos professores são altamente qualificados e nossa infraestrutura é projetada para oferecer o melhor ambiente de aprendizado, com laboratórios modernos, bibliotecas e espaços de convivência. Convidamos você a fazer parte dessa história de sucesso e a construir um futuro promissor conosco!</p>
+                    <h4>Nossos Pilares:</h4>
+                    <ul class="pilares-ifro">
+                        <li>**Excelência no Ensino:** Compromisso com a qualidade acadêmica e formação integral.</li>
+                        <li>**Pesquisa e Inovação:** Incentivo à produção de conhecimento e soluções tecnológicas.</li>
+                        <li>**Extensão e Impacto Social:** Conexão com a comunidade e aplicação prática do aprendizado.</li>
+                        <li>**Inclusão e Diversidade:** Respeito às diferenças e promoção de um ambiente acolhedor para todos.</li>
+                    </ul>
+                </div>
+                <div class="sobre-nos-imagem">
+                    <img src="/img_2.jpg" alt="Vista aérea de um campus do IFRO">
+                </div>
+            </div>
+            <a href="#" class="btn-saiba-mais">Saiba Mais Sobre Nossa História</a>
+        </section>
+
+        ---
+
+        <section class="secao-cursos">
+            <h3>Nossos Cursos: Sua Jornada de Conhecimento Começa Aqui</h3>
+            <p class="introducao-cursos">Explore a variedade de cursos oferecidos pelo IFRO e encontre o caminho que mais se alinha aos seus objetivos e paixões. Oferecemos formação técnica de nível médio, cursos superiores de graduação e pós-graduação, todos focados nas demandas do mercado e no desenvolvimento integral do estudante.</p>
+
+            <div class="container-cursos">
+                <div class="curso-card">
+                    <img src="/pc.jpg" alt="Pessoas trabalhando com computadores e códigos">
+                    <div class="curso-conteudo">
+                        <h4>Técnico em Informática</h4>
+                        <p>Prepare-se para o mundo digital! Nosso curso capacita profissionais na criação e manutenção de sistemas, redes e softwares, com foco em desenvolvimento web e aplicativos.</p>
+                        <ul class="curso-caracteristicas">
+                            <li>Nível: Técnico Integrado/Subsequente</li>
+                            <li>Duração: 3 ou 2 anos</li>
+                            <li>Modalidade: Presencial</li>
+                        </ul>
+                        <a href="#" class="btn-detalhes-curso">Saiba Mais</a>
+                    </div>
+                </div>
+
+                <div class="curso-card">
+                    <img src="/trator.jpg" alt="Campo de plantação com trator">
+                    <div class="curso-conteudo">
+                        <h4>Agronegócio</h4>
+                        <p>Gerencie e inove no setor que move o Brasil! Aprenda sobre gestão de propriedades rurais, produção sustentável e tecnologias aplicadas ao campo.</p>
+                        <ul class="curso-caracteristicas">
+                            <li>Nível: Técnico Integrado/Subsequente</li>
+                            <li>Duração: 3 ou 2 anos</li>
+                            <li>Modalidade: Presencial</li>
+                        </ul>
+                        <a href="#" class="btn-detalhes-curso">Saiba Mais</a>
+                    </div>
+                </div>
+
+                <div class="curso-card">
+                    <img src="/planta.jpg" alt="Planta de arquitetura e capacete de segurança">
+                    <div class="curso-conteudo">
+                        <h4>Edificações</h4>
+                        <p>Construa seu futuro no setor da construção civil! O curso forma profissionais para atuar no planejamento, execução e fiscalização de obras, com ênfase em sustentabilidade e segurança.</p>
+                        <ul class="curso-caracteristicas">
+                            <li>Nível: Técnico Integrado/Subsequente</li>
+                            <li>Duração: 3 ou 2 anos</li>
+                            <li>Modalidade: Presencial</li>
+                        </ul>
+                        <a href="#" class="btn-detalhes-curso">Saiba Mais</a>
+                    </div>
+                </div>
+
+                <div class="curso-card">
+                    <img src="/gado.jpg" alt="Gado em pastagem">
+                    <div class="curso-conteudo">
+                        <h4>Zootecnia</h4>
+                        <p>Manejo, produção e bem-estar animal! Este curso aborda desde a criação de animais de produção até a sustentabilidade na pecuária e biotecnologia.</p>
+                        <ul class="curso-caracteristicas">
+                            <li>Nível: Técnico Integrado/Subsequente</li>
+                            <li>Duração: 3 ou 2 anos</li>
+                            <li>Modalidade: Presencial</li>
+                        </ul>
+                        <a href="#" class="btn-detalhes-curso">Saiba Mais</a>
+                    </div>
+                </div>
+
+                </div>
+            <div class="ver-todos-cursos">
+                <a href="#" class="btn-ver-todos-cursos">Ver Todos os Nossos Cursos</a>
+            </div>
+        </section>
+
+        ---
+
+        <section class="secao-noticias">
+            <h3>Últimas Notícias e Eventos</h3>
+            <div class="container-noticias">
+                <article class="card-noticia">
+                    <img src="/img_1.jpg" alt="Professores em reunião">
+                    <div class="card-conteudo">
+                        <h4>IFRO Lança Edital de Concurso para Docentes</h4>
+                        <p>O Instituto Federal de Rondônia anuncia a abertura de novo concurso público para preenchimento de vagas de professores em diversas áreas.</p>
+                        <time datetime="2025-07-15">15 de Julho de 2025</time>
+                        <a href="#" class="card-link">Leia Mais</a>
+                    </div>
+                </article>
+
+                <article class="card-noticia">
+                    <img src="/img_2.jpg" alt="Alunos em evento de tecnologia">
+                    <div class="card-conteudo">
+                        <h4>Semana de Tecnologia e Inovação no Campus Porto Velho</h4>
+                        <p>Participe da nossa semana especial com palestras, workshops e apresentações de projetos inovadores.</p>
+                        <time datetime="2025-07-10">10 de Julho de 2025</time>
+                        <a href="#" class="card-link">Leia Mais</a>
+                    </div>
+                </article>
+
+                <article class="card-noticia">
+                    <img src="/img_3.jpg" alt="Estudantes resolvendo problemas de matemática">
+                    <div class="card-conteudo">
+                        <h4>Alunos do IFRO Conquistam Prêmios em Olimpíada de Matemática</h4>
+                        <p>Nossos talentosos estudantes se destacaram na última Olimpíada Brasileira de Matemática, trazendo medalhas para casa.</p>
+                        <time datetime="2025-07-08">08 de Julho de 2025</time>
+                        <a href="#" class="card-link">Leia Mais</a>
+                    </div>
+                </article>
+
+                <article class="card-noticia">
+                    <img src="/Campus_Cacoal_1.jpg" alt="Grupo de pessoas em curso">
+                    <div class="card-conteudo">
+                        <h4>Inscrições Abertas para Cursos de Extensão</h4>
+                        <p>Oportunidade para a comunidade aprimorar conhecimentos em diversas áreas com nossos cursos de extensão.</p>
+                        <time datetime="2025-07-05">05 de Julho de 2025</time>
+                        <a href="#" class="card-link">Leia Mais</a>
+                    </div>
+                </article>
+            </div>
+            <div class="ver-mais">
+                <a href="#" class="btn-ver-mais">Ver Todas as Notícias</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="rodape">
+        <ul class="menu-serviços">
+            <h3>Serviços</h3>
+            <li><a href="#">Sobre o IFRO</a></li>
+            <li><a href="#">Comunicação</a></li>
+            <li><a href="#">Ouvidoria</a></li>
+            <li><a href="#">Contato</a></li>
+            <li><a href="#">Site Antiga</a></li>
+            <li><a href="#">Fale Conosco</a></li>
+            <li><a href="#">IFRO Mobile</a></li>
+        </ul>
+        <ul class="menu-redes">
+            <h3>Redes Sociais</h3>
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">YouTube</a></li>
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">Instagram</a></li>
+        </ul>
+        <ul class="rss">
+            <h3>RSS</h3>
+            <li><a href="#">O que é?</a></li>
+            <li><a href="#">Assine</a></li>
+        </ul>
+        <ul class="rss">
+            <h3>Sobre o site</h3>
+            <li><a href="#">Acessibilidade</a></li>
+        </ul>
+    </footer>
+    <div class="logos">
+        <img src="/informacao.png" alt="Logo de informação do Governo Federal" width="140" />
+        <img src="/Governo.png" alt="Logo do Governo Federal" width="115" height="50" />
+    </div>
+    <div class="texto">
+        <p>Instituto Federal de Educação, Ciência e Tecnologia de Rondônia REITORIA</p>
+        <p>Av. Lauro Sodré, 6500 - Censipam - Aeroporto, Porto Velho - RO, 76803-260</p>
+        <p>Fone/Fax: (69) 2182-9600</p>
+        <p>Horário de atendimento: de segunda a sexta-feira - das 08h às 12h e das 14h às 18h</p>
+    </div>
+
+    <script type="module" src="/src/main.ts"></script>
 </body>
 
 </html>
