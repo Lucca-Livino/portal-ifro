@@ -12,7 +12,7 @@ hamburger.addEventListener('click', () => {
   menu.classList.toggle('open');
   hamburger.classList.toggle('active');
   if (hamburger.classList.contains('active')) {
-    burgerIcone.src = '/x.svg';
+    burgerIcone.src = '/burguer-menu.svg';
   } else {
     burgerIcone.src = '/burger-menu.svg';
   }
